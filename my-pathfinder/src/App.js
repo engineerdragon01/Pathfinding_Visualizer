@@ -1,12 +1,14 @@
 import React from 'react';
-import './App.css';
+import BFS from './BFS/BFS';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div className='App'>
+        <BFS></BFS>
+      </div>
+    )
+  }
 }
 
 export default App;
